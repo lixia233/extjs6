@@ -1,0 +1,61 @@
+.auth-locked-window{
+	/*！ 插入背景图 */
+	.x-window-body{
+		background-image: url('images/login/iSearch.jpg');
+        background-position:center center;
+        background-repeat: repeat;
+        background-size: cover;
+
+	}
+	&.x-window-default {
+        border: none;
+    }
+
+	/*! 登录注册面板背景透明*/
+	#register-login-Panel-body{
+		background-color: rgba(225, 225, 225, 0);
+	}
+	
+	
+	/*！ 注册版面 */
+	#registerPanel-body{
+		background:#424242;
+	}
+	/*! 标题正文背景色*/
+	#registerTitle_header,#registerTitle-body{
+		background:#424242;
+		color:white;
+	}
+	/*! 标题文字*/
+	#registerTitle_header-title-textEl{
+		color:white;
+		text-align:center;
+	}
+	/*! 注册按钮*/
+	#registerBtn{
+	    background: #424242;
+	    border-style: double;
+	    border-color: white;
+	    border-radius: 7px;
+	}
+
+	/*！ 登录版面 */
+	/*! 登录logo*/
+	#loginLogo{
+	    // border-style: ridge;
+	    // border-color: #fffefe;
+	    // border-width: 2px;
+	    border-radius: 180px;
+	    max-width: 100%;
+        margin-left: 118px;
+		margin-right: 118px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	#textfield-1010,#textfield-1011{
+		margin:0px auto;
+	}
+	#loginBtn{
+		background: #424242;
+	}
+}
