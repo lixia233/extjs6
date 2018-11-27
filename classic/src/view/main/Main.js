@@ -23,7 +23,7 @@ Ext.define('myApp.view.main.Main', {
 
         'myApp.view.main.MainController',
         'myApp.view.main.MainModel',
-        'myApp.view.main.List'
+        'myApp.view.main.List' 
     ],
 
     controller: 'main',
@@ -31,9 +31,9 @@ Ext.define('myApp.view.main.Main', {
 
     ui: 'navigation',
 
-    tabBarHeaderPosition: 1,
-    titleRotation: 0,
-    tabRotation: 0,
+    tabBarHeaderPosition: 1,//如果指定，tabBar将呈现为TabPanel的标题的项目，指定的tabBarHeaderPosition将用作Panel标题的 Ext.panel.Header＃itemPosition。如果没有指定，的TabBar 将呈现为在放入项tabPosition。
+    titleRotation: 0,//没有轮换
+    tabRotation: 0,//没有轮换
 
     header: {
         layout: {
